@@ -1,0 +1,265 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: poppins;
+    color: black;
+  }
+  
+  header {
+    width: 100%;
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 255, 0),
+      rgb(0, 255, 255)
+    );
+  }
+  
+  .contenedor {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  h1 {
+    position: absolute;
+    text-indent: -10000px;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav ul {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .header__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .header__btn {
+    background-color: rgb(251, 253, 94);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero {
+    width: 100%;
+    height: calc(100vh - 100px);
+  }
+  
+  .hero .contenedor {
+    max-width: 100%;
+  }
+  
+  .hero img {
+    width: 100%;
+    object-fit: cover;
+    height: calc(100vh - 100px);
+  }
+  
+  .main__bienvenida {
+    background-color: rgb(244, 244, 88);
+    padding: 30px 0;
+  }
+  
+  h2 {
+    width: 100%;
+    font-size: 32px;
+    color: rgb(0, 0, 108);
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .main__caracteristicas {
+    width: 100%;
+    background-image: url(../imagenes/ESPUMA.png);
+    padding: 50px 0;
+  }
+  
+  .main__caracteristicas .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main__item--1,
+  .main__item--2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 100%;
+    height: 400px;
+    transition: all 0.5s ease;
+  }
+  
+  .main__item--2 {
+    flex-direction: row-reverse;
+  }
+  
+  .main__item--1 h2,
+  .main__item--2 h2 {
+    width: 300px;
+    font-size: 37px;
+    color: rgb(30, 176, 212);
+    font-weight: bold;
+    transition: all 0.5s ease;
+  }
+  
+  .main__item--1 img,
+  .main__item--2 img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .main__item--1:hover,
+  .main__item--2:hover {
+    transform: scale(110%);
+  }
+  
+  .main__item--1:hover h2 {
+    transform: scale(100%);
+    transform: translateX(400px);
+  }
+  
+  .main__item--2:hover h2 {
+    transform: scale(100%);
+    transform: translateX(-400px);
+  }
+  
+  @media (max-width: 800px) {
+    header {
+      width: 100%;
+      background-image: linear-gradient(
+        to right,
+        rgb(255, 255, 0),
+        rgb(0, 255, 255)
+      );
+    }
+  
+    .contenedor {
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      max-width: 375px;
+      align-items: center;
+      overflow: hidden;
+    }
+  
+    h1 {
+      position: absolute;
+      text-indent: -10000px;
+    }
+  
+    .nav {
+      display: none;
+    }
+  
+    .header__img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+  
+    .header__btn {
+      background-color: rgb(251, 253, 94);
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+    }
+  
+    .hero {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      height: 50%;
+    }
+  
+    .hero .contenedor {
+      max-width: 100%;
+    }
+  
+    .hero img {
+      width: 100%;
+      height: auto;
+      max-height: 50%;
+    }
+  
+    .main__bienvenida {
+      background-color: rgb(244, 244, 88);
+      padding: 15px 0;
+    }
+  
+    h2 {
+      width: 100%;
+      font-size: 16px;
+      color: rgb(0, 0, 108);
+      text-align: center;
+      font-weight: 400;
+    }
+  
+    .main__caracteristicas {
+      width: 100%;
+      background-image: url(../imagenes/ESPUMA.png);
+    }
+  
+    .main__caracteristicas .contenedor {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .main__item--1,
+    .main__item--2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 25px 0;
+      width: 100%;
+      height: 400px;
+    }
+  
+    .main__item--1 h2,
+    .main__item--2 h2 {
+      color: white;
+      font-size: 21px;
+      background-color: rgb(30, 176, 212);
+    }
+  
+    .main__item--1 img,
+    .main__item--2 img {
+      margin: auto;
+      width: 300px;
+      height: auto;
+    }
+  
+    .main__item--1:hover,
+    .main__item--2:hover {
+      transform: scale(100%);
+    }
+  
+    .main__item--1:hover h2 {
+      transform: scale(100%);
+      transform: translateX(0px);
+    }
+  
+    .main__item--2:hover h2 {
+      transform: scale(100%);
+      transform: translateX(0px);
+    }
+  }
+  
+  
