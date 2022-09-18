@@ -1,81 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../imagenes/logo.png">
-    <link rel="stylesheet" href="../Styles/Styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../imagenes/logo.png" />
+    <link rel="stylesheet" href="../Styles/Styles.css" />
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <title>Galeria</title>
-</head>
-<body class="bodyGaleria">
-    <header>
-        <img src="../imagenes/logo.png" alt="logo de la pagina" width="200px" height="200px">
-        <nav> 
-            <ul>
-                <li class="links"><a href="../index.html">Inicio</a> 
-                </li>
-                <li class="links"><a href="./servicios.html">Servicios</a>
-                </li>
-                <li class="links"><a href="./galeria.html">Galeria</a>
-                </li>
-                <li class="links"><a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li class="links"><a href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
+    <title>Cleaning Expert</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor">
+        <h1>Cleaning Expert</h1>
+        <img
+          src="../imagenes/logo.png"
+          alt="logo de la pagina"
+          class="header__img"
+        />
+        <nav class="nav">
+          <ul>
+            <li class="links"><a href="../index.html">Inicio</a></li>
+            <li class="links">
+              <a href="../paginas/servicios.html">Servicios</a>
+            </li>
+            <li class="links"><a href="../paginas/galeria.html">Galeria</a></li>
+            <li class="links">
+              <a href="../paginas/nosotros.html">Nosotros</a>
+            </li>
+            <li class="links">
+              <a href="../paginas/contacto.html">Contacto</a>
+            </li>
+          </ul>
         </nav>
-        <button>Pedí tu presupuesto</button> <a href="./paginas/contacto.html"></a>
+        <a href="#" class="header__btn">Pedí tu presupuesto</a>
+      </div>
     </header>
-    <main>
-        <h2 class="bienvenida2">¡Descubrí el resultado de Cleaning Expert!</h2>  
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../imagenes/maquina.png" class="d-block w-100" alt="maquina">
-              </div>
-              <div class="carousel-item">
-                <img src="../imagenes/butaca.png" class="d-block w-100" alt="butaca">
-              </div>
-              <div class="carousel-item">
-                <img src="../imagenes/sillon.jpg" class="d-block w-100" alt="sillon">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    <hr>
-    <article>
-        <table class="tabla" border="2px" cellpadding="5px"cellspacing="2px">
-            <tr>
-                <th>Limpieza de Sillones</th>
-                <th>Limpieza de Alfombras</th>
-                <th>Lavado de Carpetas</th>
-                <th>Desagote de Carpetas</th>
-            </tr>
-            <tr>
-                <td>Se realiza limpieza con desinfección, desmanchado y perfumado.</td>
-                <td>Re-descubrí tus alfombras con nuestro servicio profesional de limpieza, los colores volverán a relucir.</td>
-                <td>Las carpetas se retiran del domicilio del cliente y se lavan en planta.</td>
-                <td>Desagote por inundaciones de Carpetas y Alfombras.</td>
-            </tr>
-        </table>
+    <main class="main">
+      <div class="main__bienvenida">
+        <div class="contenedor">
+          <h2>¡Descubrí el resultado de Cleaning Expert!</h2>
+        </div>
+      </div>
+      <main>
+    
+
+        <div class="titulo">
+            <h2>Nuestros clientes 2022</h2>    
+            
+            
+            <div class="grid-container">         
+              <article  class="cliente">         
+                <a class="nombre" href="#">
+                    Cliente Juan de Boedo      </a>         
+                <div class="imagenes">
+                  <a href="#">
+                      <img width="500px" height="500px" src="../imagenes/galeriauno.jpg" alt="cliente juan">    </a>          
+                </div>         
+              </article>
+    
+                <div class="grid-container">         
+                  <article  class="cliente">         
+                    <a class="nombre" href="#">
+                        Cliente Romina de Temperley      </a>         
+                    <div class="imagenes">
+                      <a href="#">
+                          <img width="500px" height="500px" src="../imagenes/galeriados.jpg" alt="cliente Romina">    </a>          
+                    </div>         
+                  </article>
+
+                  <div class="grid-container">         
+                    <article  class="cliente">         
+                      <a class="nombre" href="#">
+                          Cliente Pablo de Villa Crespo      </a>         
+                      <div class="imagenes">
+                        <a href="#">
+                            <img width="500px" height="500px" src="../imagenes/galeriatres.jpg" alt="cliente Pablo">    </a>          
+                      </div>         
+                    </article>
+
+                    <div class="grid-container">         
+                        <article  class="cliente">         
+                          <a class="nombre" href="#">
+                              Cliente Milagros de Villa Pueyrredón      </a>         
+                          <div class="imagenes">
+                            <a href="#">
+                                <img width="500px" height="500px" src="../imagenes/galeriacuatro.jpg" alt="cliente Milagros">    </a>          
+                          </div>         
+                        </article>
+
+                        <div class="grid-container">         
+                            <article  class="cliente">         
+                              <a class="nombre" href="#">
+                                  Cliente Alejandro de Villa Urquiza      </a>         
+                              <div class="imagenes">
+                                <a href="#">
+                                    <img width="500px" height="500px" src="../imagenes/galeriacinco.jpg" alt="cliente Alejandro">    </a>          
+                              </div>         
+                            </article>
+
+                            <div class="grid-container">         
+                                <article class="cliente">         
+                                  <a class="nombre" href="#">
+                                      Cliente Marianela de Saavedra     </a>         
+                                  <div class="imagenes">
+                                    <a href="#">
+                                        <img width="500px" height="500px" src="../imagenes/galeriaseis.jpg" alt="cliente Marianela">    </a>          
+                                  </div>         
+                                </article>
+
+                                <div class="grid-container">         
+                                    <article  class="cliente">         
+                                      <a class="nombre" href="#">
+                                          Cliente Cristian de Villa Adelina    </a>         
+                                      <div class="imagenes">
+                                        <a href="#">
+                                            <img width="500px" height="500px" src="../imagenes/galeriasiete.jpg" alt="cliente Cristian">    </a>          
+                                      </div>         
+                                    </article>
+
+                                    <div class="grid-container">         
+                                        <article class="cliente">         
+                                          <a class="nombre" href="#">
+                                              Cliente Silvia de Villa Martelli     </a>         
+                                          <div class="imagenes">
+                                            <a href="#">
+                                                <img width="500px" height="500px" src="../imagenes/galeriaocho.jpg" alt="cliente Silvia">    </a>          
+                                          </div>         
+                                        </article>
+
+                                        <div class="grid-container">         
+                                            <article class="cliente">         
+                                              <a class="nombre" href="#">
+                                                  Cliente Fabricio de Devoto      </a>         
+                                              <div class="imagenes">
+                                                <a href="#">
+                                                    <img width="500px" height="500px" src="../imagenes/galerianueve.png" alt="cliente Fabricio">    </a>          
+                                              </div>         
+                                            </article>
+              </div>   
+              
+        
+         </main>
     </main>
-        <footer>
-            <h6>© Copyright 2022 - Cleaning Expert - Todos los derechos reservados.</h6>
-            <img src="../imagenes/Instagram.png" alt="instagram de la marca" width="30px" height="30px">
-            <a href="https://www.instagram.com/cleaningexpert.ok/">/cleaningexpert</a>
-        </footer>
-        <!-- JavaScript Bundle with Popper -->
+    <footer class="footer">
+      <div class="contenedor"></div>
+      <div class="alert alert-primary" role="alert">
+        !Entrá y participa de sorteos semanales!
+      </div>
+      <h3 class="redes">Seguinos en nuestras redes</h3>
+      <iframe src="https://www.instagram.com/cleaningexpert.ok/" frameborder="1px"></iframe>
+    <footer>
+     <img src="../imagenes/Instagram.png" alt="instagram de la marca" width="30px" height="30px">
+      <a href="https://www.instagram.com/cleaningexpert.ok/">/cleaningexpert</a> 
+      <h6>© Copyright 2022 - Cleaning Expert - Todos los derechos reservados.</h6>
+  </footer>
+    <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
-       
 </html>
