@@ -224,6 +224,10 @@ padding: 30px;
   padding: 50px;
  
  }
+ .iframe{
+  display: flex;
+  justify-content: center;
+ }
 
 
   @media (max-width: 800px) {
