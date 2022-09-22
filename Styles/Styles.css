@@ -10,12 +10,9 @@
 
 header {
   width: 100%;
-  background-image: linear-gradient(to right,
-      rgb(255, 255, 0),
-      rgb(0, 255, 255));
+  background-image: linear-gradient(to right, rgb(255, 255, 0), rgb(0, 255, 255));
 }
-
-.contenedor {
+header .contenedor {
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -23,32 +20,24 @@ header {
   align-items: center;
   overflow: hidden;
 }
-
-h1 {
+header h1 {
   position: absolute;
   text-indent: -10000px;
 }
 
-.nav ul {
-  display: flex;
-}
-
-.header__img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-}
 .hero {
   width: 100%;
   height: calc(100vh - 100px);
 }
+
 .hero .contenedor {
   max-width: 100%;
 }
 
 .hero img {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: calc(100vh - 100px);
 }
 
@@ -105,7 +94,8 @@ h2 {
 .main__item--2 img {
   width: 600px;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main__item--1:hover,
@@ -122,12 +112,14 @@ h2 {
   transform: scale(100%);
   transform: translateX(-400px);
 }
+
 .footer {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 50px;
 }
+
 .redes {
   padding: 10px;
 }
@@ -140,55 +132,54 @@ h2 {
   padding: 2px;
   margin: 50px;
 }
+
 .titulo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
+
 .col {
   padding: 50px;
 }
+
 .formulario {
   padding: 40px;
 }
+
 .iframe {
   display: flex;
   justify-content: center;
 }
+
 #carouselExampleCaptions {
-padding: 30px;
-width: 100%;
-height: 100%;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 800px) {
   header {
     width: 100%;
-    background-image: linear-gradient(to right,
-        rgb(255, 255, 0),
-        rgb(0, 255, 255));
+    background-image: linear-gradient(to right, rgb(255, 255, 0), rgb(0, 255, 255));
   }
-
   .contenedor {
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
-
   h1 {
     position: absolute;
     text-indent: -10000px;
   }
-
   .header__img {
     width: 100px;
     height: 100px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
-
   .header__btn {
     background-color: rgb(251, 253, 94);
     padding: 10px 20px;
@@ -196,29 +187,24 @@ height: 100%;
     box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
   }
-
   .hero {
     display: flex;
     align-items: flex-start;
     width: 100%;
     height: 50%;
   }
-
   .hero .contenedor {
     max-width: 100%;
   }
-
   .hero img {
     width: 100%;
     height: auto;
     max-height: 50%;
   }
-
   .main__bienvenida {
     background-color: rgb(244, 244, 88);
     padding: 15px 0;
   }
-
   h2 {
     width: 100%;
     font-size: 16px;
@@ -226,20 +212,16 @@ height: 100%;
     text-align: center;
     font-weight: 400;
   }
-
   .main__caracteristicas {
     width: 100%;
     background-image: url(../imagenes/ESPUMA.png);
   }
-
   .main__caracteristicas .contenedor {
     display: flex;
     flex-direction: column;
   }
-
-
   .main__item--1,
-  .main__item--2 {
+.main__item--2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,43 +229,36 @@ height: 100%;
     width: 100%;
     height: 400px;
   }
-
   .main__item--1 h2,
-  .main__item--2 h2 {
+.main__item--2 h2 {
     color: white;
     font-size: 21px;
     background-color: rgb(30, 176, 212);
   }
-
   .main__item--1 img,
-  .main__item--2 img {
+.main__item--2 img {
     margin: auto;
     width: 300px;
     height: auto;
   }
-
   .main__item--1:hover,
-  .main__item--2:hover {
+.main__item--2:hover {
     transform: scale(100%);
   }
-
   .main__item--1:hover h2 {
     transform: scale(100%);
     transform: translateX(0px);
   }
-
   .main__item--2:hover h2 {
     transform: scale(100%);
     transform: translateX(0px);
   }
-
   .texto {
     display: flex;
     flex-direction: column;
     font-weight: 400;
     height: auto;
   }
-
 }
 .footer {
   width: 100%;
@@ -293,4 +268,4 @@ height: 100%;
 #carouselExampleCaptions {
   display: flex;
   flex-direction: column;
-}
+}/*# sourceMappingURL=styles.css.map */
