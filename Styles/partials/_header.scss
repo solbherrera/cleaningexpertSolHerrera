@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: poppins;
+    color: black;
+}
+
+header {
+    width: 100%;
+    background-image: $background_header;
+
+    .contenedor {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1440px;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    h1 {
+        position: absolute;
+        text-indent: -10000px;
+    }
+}
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 100px);
+
+    .contenedor {
+        max-width: 100%;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            height: calc(100vh - 100px);
+        }
+    }
+}
