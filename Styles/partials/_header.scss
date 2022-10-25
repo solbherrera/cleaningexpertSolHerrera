@@ -10,7 +10,7 @@
 
 header {
     width: 100%;
-    background-image: $background_header;
+    background-image: map-get($colores, background_header);
 
     .contenedor {
         margin: auto;
